@@ -4,7 +4,7 @@
     <string name="choose_which_unit">Choose which unit</string>
 
     <string-array name="gender">
-        <item>Male</item>
-        <item>Female</item>
+        <item>Unit 1</item>
+        <item>Unit 2</item>
     </string-array>
 </resources>
