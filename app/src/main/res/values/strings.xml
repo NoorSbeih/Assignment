@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Assignment1</string>
+    <string name="english_for_palestine_5a_guide">English for palestine 5A guide</string>
+    <string name="choose_which_unit">Choose which unit</string>
+
+    <string-array name="gender">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+</resources>
