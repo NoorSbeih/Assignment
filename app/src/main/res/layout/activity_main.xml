@@ -1,34 +1,127 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.LinearLayoutCompat xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#45E6B9">
+    <androidx.appcompat.widget.LinearLayoutCompat xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:orientation="vertical"
-    android:background="#45E6B9"
+
     tools:context=".MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/english_for_palestine_5a_guide"
+        android:textColor="@color/black"
+        android:visibility="visible"
         style="@style/txtstyle"
      />
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        style="@style/txtstyle"
-        android:text="@string/choose_which_unit"
-        />
-    <Spinner
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/book_pdf"
+            android:textColor="@color/black"
+            android:visibility="visible"
+
+            style="@style/txtstyle"
+            />
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_gravity="center"
+            android:id="@+id/AppTitleimage1"
+            android:layout_marginTop="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/english"
+            android:autoLink="web"
+            android:clickable="true"
+            android:focusable="true" />
+
+    <ToggleButton
         android:layout_width="wrap_content"
         android:layout_marginTop="20dp"
         android:layout_height="wrap_content"
-        android:entries="@array/gender"
+        android:id="@+id/btn1"
+        android:textOn="@string/unit_1"
+        android:textOff="@string/unit_1"
+        android:background="@drawable/roundedbtns"
         android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textoutput"
+            android:background="@drawable/roundedbtns"
+            style="@style/txtstyle"
+           />
+
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn2"
+        android:textOn="@string/unit_2"
+        android:background="@drawable/roundedbtns"
+        android:textOff="@string/unit_2"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textoutput2"
+            android:background="@drawable/roundedbtns"
+            style="@style/txtstyle"
+
+           />
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn3"
+        android:textOn="@string/unit_3"
+        android:textOff="@string/unit_3"
+        android:background="@drawable/roundedbtns"
+        android:layout_gravity="center"/>
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/textoutput3"
+            android:background="@drawable/roundedbtns"
+            style="@style/txtstyle"
+           />
+
+
+    <ToggleButton
+        android:layout_width="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn4"
+        android:textOn="@string/unit_4"
+        android:textOff="@string/unit_4"
+        android:background="@drawable/roundedbtns"
+        android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="300dp"
+            android:background="@drawable/roundedbtns"
+            android:layout_height="wrap_content"
+            style="@style/txtstyle"
+            android:id="@+id/textoutput4"
+            />
 
 
 
 
 
 </androidx.appcompat.widget.LinearLayoutCompat>
+</ScrollView>

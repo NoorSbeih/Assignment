@@ -1,10 +1,12 @@
 <resources>
     <string name="app_name">Assignment1</string>
-    <string name="english_for_palestine_5a_guide">English for palestine 5A guide</string>
+    <string name="english_for_palestine_5a_guide">5th Grade english Midterm study guide</string>
     <string name="choose_which_unit">Choose which unit</string>
+    <string name="unit_1">Unit 1</string>
+    <string name="unit_2">Unit 2</string>
+    <string name="unit_3">Unit 3</string>
+    <string name="unit_4">Unit 4</string>
+    <string name="book_pdf">Book PDF:</string>
 
-    <string-array name="gender">
-        <item>Unit 1</item>
-        <item>Unit 2</item>
-    </string-array>
+
 </resources>
